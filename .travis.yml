@@ -5,5 +5,5 @@ install: true
 script: git clone https://github.com/jmalloc/grit/ c1
 deploy:
   provider: script
-  script: git clone https://github.com/jmalloc/grit/ c2
+  script: git clone https://github.com/jmalloc/grit.git c2
   skip_cleanup: true
