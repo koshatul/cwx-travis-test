@@ -1,0 +1,10 @@
+language: go
+go:
+- '1.9'
+script: git clone https://github.com/jmalloc/grit/ c1
+deploy:
+  provider: script
+  script: git clone https://github.com/jmalloc/grit/ c2
+  skip_cleanup: true
+  on:
+    branch: master
