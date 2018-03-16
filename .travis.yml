@@ -7,3 +7,4 @@ deploy:
   provider: script
   script: git clone https://github.com/jmalloc/grit/ c2 2>&1
   skip_cleanup: true
+
